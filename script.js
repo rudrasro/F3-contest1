@@ -30,7 +30,7 @@ fetch('https://dummyjson.com/products')
                     <div class="description">${myproduct.description}</div>
                     <div class="price-discount">
                         <div class="price">&#x20B9 ${myproduct.price}</div>
-                        <div class="discount"><u>${myproduct.discountPercentage} off</u></div>
+                        <div class="discount"><u>${myproduct.discountPercentage}% off</u></div>
                     </div>
                     <div class="rating-stock">
                         <div class="rating">${myproduct.rating} &#10026</div>
